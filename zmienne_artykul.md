@@ -2,12 +2,12 @@ Każde programowalne urządzenie, nieważne czy jest to telefon, komputer czy na
 
 Kawałek pamięci, który możemy wykorzystać do przechowywania dowolnych informacji, nazywany jest zmienną. Zmienna posiada typ, który to określa dokładnie jaki rodzaj informacji w danej zmiennej przechowujemy. Podstawowymi typami zmiennych w Ruby są:
 
-- `String` - zmienna służąca do przechowywania ciągów znaków
-- `FixNum` - zmienna służąca do przechowywania liczb całkowitych (jest to odpowiednik typu Integer z większości języków)
-- `Float` - zmienna służąca do przechowywania liczb zmiennoprzecinkowych, np 1.2
-- `Array` - zmienna służąca do przechowywania innych zmiennych
-- `Hash` - zmienna służąca do przechowywania struktur danych na zasadzie klucz-wartość
-- `Symbol` - zmienna specjalna w języku Ruby. Służy ona jako wydajne pamięciowo zastępstwo dla typu String. Wiem że nie brzmi to jak wyjaśnienie, natomiast podstawowa znajomość języka Ruby nie wymaga znajomości symboli. Szczegółowo będą one opisane w zaawansowanym kursie języka Ruby.
+- *String* - zmienna służąca do przechowywania ciągów znaków
+- *FixNum* - zmienna służąca do przechowywania liczb całkowitych (jest to odpowiednik typu Integer z większości języków)
+- *Float* - zmienna służąca do przechowywania liczb zmiennoprzecinkowych, np 1.2
+- *Array* - zmienna służąca do przechowywania innych zmiennych
+- *Hash* - zmienna służąca do przechowywania struktur danych na zasadzie klucz-wartość
+- *Symbol* - zmienna specjalna w języku Ruby. Służy ona jako wydajne pamięciowo zastępstwo dla typu String. Wiem że nie brzmi to jak wyjaśnienie, natomiast podstawowa znajomość języka Ruby nie wymaga znajomości symboli. Szczegółowo będą one opisane w zaawansowanym kursie języka Ruby.
 
 W języku Ruby mamy tzw. typowanie dynamiczne. Co za tym idzie - programista nie musi "mówić" procesorowi jaki jest typ zmiennej której chce użyć. Procesor sam ustali typ zmiennej na podstawie tego co my do tej zmiennej wpiszemy.
 

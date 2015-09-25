@@ -1,0 +1,20 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>l1z5.md</title><style></style></head><body id="preview">
+<p>Czasami musimy wyświetlić kilka linii tekstu za pomocą funkcji <em>puts</em> lub zwyczajnie potrzebujemy ciągu znaków zawierających więcej już jedną linię. Jak to zrobić?</p>
+<p>Jak już pisałem 2 zadania wcześniej są 2 sposoby na tworzenie ciągu znaków. Drugi z nich, cudzysłów, sprawia że w ciągu znaków możemy używać specjalnych znaków oraz wyrażeń które są interpretowane. Zagnieżdżanie zmiennych w ciągu znaków już omówiliśmy - teraz przyjdzie nam zmierzyć się ze znakami specjalnymi.</p>
+<p>Znaki takie to np:</p>
+<ul>
+<li><strong>\n</strong> - znak nowej linii który chcemy osiągnąć</li>
+<li><strong>\t</strong> - znak tabulatora</li>
+<li><strong>\s</strong> - znak spacji (inny zapis zamiast &quot; &quot;)</li>
+</ul>
+<p>Jest ich dużo więcej, pełen spis można znaleźć pod adresem <a href="http://www.tutorialspoint.com/ruby/ruby_strings.htm">http://www.tutorialspoint.com/ruby/ruby_strings.htm</a></p>
+<p>Podsumowując podaną wyżej wiedzę, co potrzebujemy zrobić aby uzyskać entery w naszym tekście? Przykładowo:</p>
+<pre><code class="language-ruby">puts <span class="hljs-string">"Hello\nWorld!"</span>
+</code></pre>
+<p>Wyświetla nam na ekranie te 2 wyrazy oddzielone od siebie enterem. Warto ciągle pamiętać o tym że tylko ciągi znaków w cudzysłowiu są interpretowane. Kod pokazany poniżej wyświetli nam na ekranie ciąg znaków <strong>Hello\nWorld!</strong></p>
+<pre><code class="language-ruby">puts <span class="hljs-string">'Hello\nWorld!'</span>
+</code></pre>
+<p>Wyświetl na ekranie wyrazy <strong>Uwielbiam</strong> i <strong>Ruby!</strong> oddzielone od siebie pojedynczym enterem.</p>
+<p>Pamiętaj że do wyświetlania na ekranie służy <em>puts</em>.</p>
+
+</body></html>

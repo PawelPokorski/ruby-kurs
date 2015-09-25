@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>l1z3.md</title><style></style></head><body id="preview">
+<p>Ciąg znaków to typ który jest niesamowicie często używany. Każdy tekst, czy jest to słowo, zdanie czy nawet treść Pana Tadeusza, przechowujemy w pamięci za pomocą zmiennej typu <em>String</em>. W języku ruby <em>String</em> jest w pełni dynamiczny, co oznacza że możemy przechowywać w takiej zmiennej dowolną ilość znaków pod warunkiem że zmieszczą się one w naszej pamięci RAM.</p>
+<p>Aby stworzyć zmienną typu string używamy 2 rodzajów konstrukcji:</p>
+<pre><code class="language-ruby">variable1 = <span class="hljs-string">"ciąg znaków"</span>
+variable2 = <span class="hljs-string">'ciąg znaków'</span>
+</code></pre>
+<p>Jak widać różnią się one otoczeniem ciągu. Możemy użyć znaków ’ lub &quot;. Jaka jest różnica między nimi? Apostrof ’ jest wydajniejszy, jednak nie daje nam jednej sprytnej opcji cudzysłowia jaką jest zagnieżdżanie wartości w ciągu. Przykład wyjaśni nam o co chodzi:</p>
+<pre><code class="language-ruby">number = <span class="hljs-number">5</span>
+string_variable = <span class="hljs-string">"Wartość number to: <span class="hljs-subst">#{number}</span>"</span>
+puts string_variable
+</code></pre>
+<p>Jak już wspomniałem we wstępie funkcja <em>puts</em> wyświetla nam ciąg znaków na ekran. W powyższym kodzie widzimy proste zagnieżdżenie wartości w ciągu znaków. Po wykonaniu tego kodu na ekranie zobaczymy napis <strong>Wartość number to: 5</strong>. A zatem cudzysłowia pozwalają nam w prosty sposób wstawiać zmienne w wyświetlany ciąg znaków!</p>
+<p>Stwórz 2 zmienne jako ciągi znaków.</p>
+<p>Pierwszą zmienną nazwij string1 i zapisz w niej tekst <strong>World!</strong></p>
+<p>Drugą zmienną nazwij string2 i zapisz w niej tekst <strong>Hello</strong> po spacji zagnieżdżając naszą pierwszą zmienną. W rezultacie powinniśmy otrzymać na ekranie napis <strong>Hello World!</strong>.</p>
+
+</body></html>
